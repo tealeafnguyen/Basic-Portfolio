@@ -2,7 +2,6 @@
         line-height:45px;
         position: relative;
         margin-left: 230px;
-        margin-bottom: 500px;
     }
 
     body{
@@ -123,6 +122,7 @@
     }
 
     .button {
+        position:fixed;
         background-color: #4aaaa5;
         border: none;
         color: white;
@@ -133,4 +133,29 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
+    }
+
+    .listOfStuff {
+        align-content: center;
+        width: device-width;
+        height: 700px;
+        background-color: #ffffff;
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: 20px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 50px;
+        margin-bottom: 107px;
+    }
+
+    .flex-grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        flex: 1;
     }
